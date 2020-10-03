@@ -25,7 +25,7 @@ function UpdateCarrera(idCarrera, nombre, abreviatura, descripcion) {
             abreviatura: abreviatura,
             descripcion: descripcion,
         }
-        const result = await storage.update(idCarrera, carrera)
+        const result = await storage.update(idCarrera, carrera);
         resolve(result);
     });
 }

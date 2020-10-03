@@ -26,7 +26,7 @@ async function UpdateCarrera(idCarrera, objeto) {
 }
 
 function DeleteCarrera(idCarrera) {
-    return model.deleteOne({ _id: idCarrera })
+    return model.deleteOne({ _id: idCarrera });
 }
 
 module.exports = {
